@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择喜欢的水果（可多选）"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- 复选框1 -->
+    <CheckBox
+        android:id="@+id/cb_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="苹果"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:checked="true" />  <!-- 默认选中 -->
+
+    <!-- 复选框2 -->
+    <CheckBox
+        android:id="@+id/cb_banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="香蕉"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp" />
+
+    <!-- 复选框3 -->
+    <CheckBox
+        android:id="@+id/cb_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="橙子"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp" />
+
+    <!-- 获取选择结果的按钮 -->
+    <Button
+        android:id="@+id/btn_get_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取选择结果"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/md3_primary" />
+
+</LinearLayout>

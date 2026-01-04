@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择性别（单选）"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+    <!-- 单选按钮1 -->
+    <RadioButton
+        android:id="@+id/rb_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男"
+        android:textSize="16sp"
+        android:checked="true" />
+
+    <!-- 单选按钮2 -->
+    <RadioButton
+        android:id="@+id/rb_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp" />
+</RadioGroup>
+
+    <Button
+        android:id="@+id/btn_get_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取选择结果"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/md3_primary" />
+</LinearLayout>

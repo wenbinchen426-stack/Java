@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Fragment容器（通过代码动态添加Fragment） -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- 切换Fragment的按钮 -->
+    <Button
+        android:id="@+id/btn_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换Fragment"
+        android:backgroundTint="@color/md3_primary" />
+
+</LinearLayout>

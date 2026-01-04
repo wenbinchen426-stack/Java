@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="10dp">
+
+    <!-- 表头行 -->
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/md3_primary">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ID"
+    android:padding="10dp"
+    android:textColor="@android:color/black"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="名称"
+    android:padding="10dp"
+    android:textColor="@android:color/black"
+    android:textStyle="bold" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="数量"
+    android:padding="10dp"
+    android:textColor="@android:color/black"
+    android:textStyle="bold" />
+</TableRow>
+
+    <!-- 数据行1 -->
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="001"
+        android:textColor="@color/black" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="苹果"
+    android:textColor="@color/black"
+    android:padding="10dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="10"
+    android:textColor="@color/black"
+    android:padding="10dp" />
+</TableRow>
+
+    <!-- 数据行2 -->
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_light">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="002"
+    android:textColor="@color/black"
+    android:padding="10dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="香蕉"
+    android:textColor="@color/black"
+    android:padding="10dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="20"
+    android:textColor="@color/black"
+    android:padding="10dp" />
+</TableRow>
+</TableLayout>

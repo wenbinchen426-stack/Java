@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- 基础文本 -->
+    <TextView
+        android:id="@+id/tv_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基础 TextView"
+        android:textSize="20sp"
+        android:textColor="@color/md3_primary"
+        android:textStyle="bold" />
+
+    <!-- 多行文本 + 换行 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是多行文本\n第二行内容\n第三行内容"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:maxLines="3"
+        android:ellipsize="end" />
+
+    <!-- 带图标的文本（drawableLeft） -->
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带图标的文本"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:drawablePadding="8dp" />
+
+</LinearLayout>

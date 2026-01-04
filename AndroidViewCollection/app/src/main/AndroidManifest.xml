@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 网络相关 -->
+    <uses-permission android:name="android.permission.INTERNET"/>  <!-- 允许应用访问网络 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> <!-- 获取网络状态信息 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/> <!-- 改变网络状态（如开启/关闭移动数据） -->
+
+    <!-- 存储相关 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> <!-- 读取外部存储 -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> <!-- 写入外部存储 -->
+
+    <!-- 设备信息 -->
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>       <!-- 获取应用大小 -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/> <!-- 请求安装应用 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> <!-- 接收开机完成广播 -->
+
+    <!-- 其他 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>      <!-- 允许震动 -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>   <!-- 设置壁纸 -->
+    <uses-permission android:name="android.permission.NFC"/>        <!-- 使用NFC功能 -->
+
+    <!-- 位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>   <!-- 精确位置（GPS） -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/> <!-- 粗略位置（网络定位） -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/> <!-- 后台获取位置（Android 10+） -->
+
+    <!-- 相机与麦克风 -->
+    <uses-permission android:name="android.permission.CAMERA"/>                 <!-- 访问相机 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>           <!--  录音 -->
+
+    <!-- 联系人通讯 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>          <!-- 读取联系人 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>         <!-- 修改联系人 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>       <!-- 读取手机状态（如IMEI） -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>             <!-- 直接拨打电话 -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>               <!-- 发送短信 -->
+    <uses-permission android:name="android.permission.READ_SMS"/>               <!-- 读取短信 -->
+
+    <!-- 储存权限 -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>      <!-- 读取图片（Android 13+） -->
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO "/>      <!-- 读取视频（Android 13+） -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO "/>      <!-- 读取音频（Android 13+） -->
+
+    <!-- 传感器与身体传感器 -->
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>           <!-- 访问身体传感器（如心率监测）-->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>   <!-- 活动识别（如步数统计）-->
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidViewCollection"
+        tools:replace="android:theme">
+
+        <!-- 主活动 -->
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 其他活动 -->
+        <activity android:name=".activity.TextViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ButtonActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.EditTextActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ImageViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.CheckBoxActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.RadioButtonActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.LinearLayoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.RelativeLayoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.FrameLayoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.TableLayoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ConstraintLayoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ListViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.GridViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.RecyclerViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ViewPagerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.SeekBarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ProgressBarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.RatingBarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.WebViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.SurfaceViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ToggleButtonActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.ScrollViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

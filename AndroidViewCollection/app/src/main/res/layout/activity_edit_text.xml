@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- 普通文本输入 -->
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:background="@drawable/et_border" />
+
+    <!-- 密码输入（隐藏输入内容） -->
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_border" />
+
+    <!-- 数字输入 -->
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:maxLength="11"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_border" />
+
+    <!-- 获取输入内容的按钮 -->
+    <Button
+        android:id="@+id/btn_get_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取输入内容"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/md3_primary" />
+
+</LinearLayout>

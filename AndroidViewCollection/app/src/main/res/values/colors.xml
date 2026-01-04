@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_light">#EEEEEE</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_dark">#616161</color>
+    <color name="gray_deep">#212121</color>
+
+    <!-- 红色系 -->
+    <color name="red_light">#FFCDD2</color>
+    <color name="red">#F44336</color>
+    <color name="red_dark">#D32F2F</color>
+    <color name="red_accent">#FF5252</color>
+
+    <!-- 粉色系 -->
+    <color name="pink_light">#F8BBD0</color>
+    <color name="pink">#E91E63</color>
+    <color name="pink_dark">#C2185B</color>
+    <color name="pink_accent">#FF4081</color>
+
+    <!-- 紫色系 -->
+    <color name="purple_light">#E1BEE7</color>
+    <color name="purple">#9C27B0</color>
+    <color name="purple_dark">#7B1FA2</color>
+    <color name="purple_accent">#E040FB</color>
+
+    <!-- 蓝色系 -->
+    <color name="blue_light">#BBDEFB</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_dark">#1976D2</color>
+    <color name="blue_accent">#448AFF</color>
+
+    <!-- 青色系 -->
+    <color name="cyan_light">#B2EBF2</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="cyan_dark">#0097A7</color>
+    <color name="cyan_accent">#00BCD4</color>
+
+    <!-- 绿色系 -->
+    <color name="green_light">#C8E6C9</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_dark">#388E3C</color>
+    <color name="green_accent">#66BB6A</color>
+
+    <!-- 黄色系 -->
+    <color name="yellow_light">#FFF9C4</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="yellow_dark">#FBC02D</color>
+    <color name="yellow_accent">#FFEE58</color>
+
+    <!-- 橙色系 -->
+    <color name="orange_light">#FFE0B2</color>
+    <color name="orange">#FF9800</color>
+    <color name="orange_dark">#F57C00</color>
+    <color name="orange_accent">#FF9800</color>
+
+    <!-- Material Design 3 颜色系统 -->
+    <color name="md3_primary">#6200EE</color>
+    <color name="md3_primary_container">#EADDFF</color>
+    <color name="md3_on_primary">#FFFFFF</color>
+    <color name="md3_on_primary_container">#1E0053</color>
+
+    <color name="md3_secondary">#03DAC6</color>
+    <color name="md3_secondary_container">#97F0E1</color>
+    <color name="md3_on_secondary">#000000</color>
+    <color name="md3_on_secondary_container">#003732</color>
+
+    <color name="md3_tertiary">#018786</color>
+    <color name="md3_tertiary_container">#94F0F0</color>
+    <color name="md3_on_tertiary">#FFFFFF</color>
+    <color name="md3_on_tertiary_container">#003737</color>
+
+    <color name="md3_error">#B00020</color>
+    <color name="md3_error_container">#FCD8DF</color>
+    <color name="md3_on_error">#FFFFFF</color>
+    <color name="md3_on_error_container">#410002</color>
+
+    <!-- 透明度颜色 -->
+    <color name="black_10">#1A000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_90">#E6000000</color>
+
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+</resources>

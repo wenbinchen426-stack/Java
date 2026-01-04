@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_view_collection"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <!-- 基础视图控件 -->
+        <Button
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/text_view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/edit_text"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/image_view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/check_box"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/radio_button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toggle_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/toggle_button"
+            android:textColor="@color/black"
+            android:textAllCaps="false" />
+
+        <!-- 布局控件 -->
+        <Button
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/linear_layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/relative_layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/frame_layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/table_layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/constraint_layout"
+            android:textAllCaps="false" />
+
+        <!-- 高级交互控件 -->
+        <Button
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/list_view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/grid_view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/recycler_view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/view_pager"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/seek_bar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/progress_bar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/rating_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/rating_bar"
+            android:textAllCaps="false" />
+
+        <!-- 特殊功能控件 -->
+        <Button
+            android:id="@+id/surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/surface_view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/web_view"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/button_selector"
+            android:text="@string/scroll_view"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

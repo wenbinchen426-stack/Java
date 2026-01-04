@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 垂直滚动视图（只能有一个直接子View） -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <!-- 子布局：垂直排列的多个控件 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ScrollView 示例"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- 重复添加多个文本，模拟长内容 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="底部按钮"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/md3_primary" />
+
+    </LinearLayout>
+
+</ScrollView>
