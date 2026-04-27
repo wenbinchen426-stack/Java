@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Idea.iml" filepath="$PROJECT_DIR$/.idea/Idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/阶段一：地基阶段/基本语法/数据类型/Java_01/Java_01.iml" filepath="$PROJECT_DIR$/阶段一：地基阶段/基本语法/数据类型/Java_01/Java_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/阶段一：地基阶段/基本语法/数据类型/Java_02/Java_02.iml" filepath="$PROJECT_DIR$/阶段一：地基阶段/基本语法/数据类型/Java_02/Java_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/阶段一：地基阶段/基本语法/控制流程/控制流程.iml" filepath="$PROJECT_DIR$/阶段一：地基阶段/基本语法/控制流程/控制流程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/阶段一：地基阶段/数组与集合/数组与集合.iml" filepath="$PROJECT_DIR$/阶段一：地基阶段/数组与集合/数组与集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/阶段一：地基阶段/基本语法/运算符/运算符.iml" filepath="$PROJECT_DIR$/阶段一：地基阶段/基本语法/运算符/运算符.iml" />
+      <module fileurl="file://$PROJECT_DIR$/阶段二：核心骨架/阶段二：核心骨架.iml" filepath="$PROJECT_DIR$/阶段二：核心骨架/阶段二：核心骨架.iml" />
+    </modules>
+  </component>
+</project>
